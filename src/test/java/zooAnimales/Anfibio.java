@@ -18,6 +18,7 @@ public class Anfibio extends Animal{
 		anfibios.add(this);
 	}
 	public Anfibio(){
+		super();
 		anfibios.add(this);
 	}	
 	public static Anfibio crearRana(String nombre,int edad, String  genero){

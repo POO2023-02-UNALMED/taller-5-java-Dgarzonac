@@ -38,4 +38,10 @@ public class Zona {
 	public void setZoo(Zoologico zoo) {
 		this.zoo = zoo;
 	}
+	public void setAnimales(List<Animal> animales) {
+		this.animales = animales;
+	}
+	public List<Animal> getAnimales() {
+		return this.animales;
+	}
 }
