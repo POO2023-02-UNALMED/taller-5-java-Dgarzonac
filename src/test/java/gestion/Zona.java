@@ -8,8 +8,9 @@ public class Zona {
 	private  Zoologico zoo;
 	private List< Animal> animales;
 	
-	public Zona(String nombre, Zoologico zoo1){
+	public Zona(String nombre, Zoologico zoo){
 		this.nombre=nombre;
+		this.zoo=zoo;
 	}
 	public Zona(){
 	}
