@@ -13,10 +13,6 @@ public class Zoologico {
 	}
 	public Zoologico(){}
 	
-	public void agregarZonas(Zona zona){
-		this.zonas.add(zona);
-	}
-	
 	public int cantidadTotalAnimales(){
 		int totalAnimales = 0;
 		for(int i=0; i<zonas.size();i++){
@@ -24,8 +20,11 @@ public class Zoologico {
 		}
 		return totalAnimales;
 	}
-
-
+	
+	public void agregarZonas(Zona zona){
+		this.zonas.add(zona);
+	}
+	
 	public String getNombre(){
 		return this.nombre;
 	}
