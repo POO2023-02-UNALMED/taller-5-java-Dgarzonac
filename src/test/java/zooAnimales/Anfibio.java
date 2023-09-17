@@ -16,7 +16,7 @@ public class Anfibio extends Animal{
 		this.setVenenoso(venenoso);
 		anfibios.add(this);
 	}
-	
+	public Anfibio(){}	
 	public static Anfibio crearRana(String nombre,int edad, String  genero){
 		ranas++;
 		return new Anfibio(nombre,edad,"selva",genero, "rojo", true);

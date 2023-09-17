@@ -14,7 +14,7 @@ public class Ave extends Animal{
 		this.colorPlumas=colorPlumas;
 		aves.add(this);
 	}
-	
+	public Ave(){}
 	public static Ave crearHalcon(String nombre,int edad, String genero){
 		halcones++;
 		return new Ave(nombre, edad, "montanas", genero, "cafe glorioso" );

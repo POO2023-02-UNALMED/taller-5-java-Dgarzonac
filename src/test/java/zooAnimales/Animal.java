@@ -16,6 +16,8 @@ public class Animal {
 		this.setHabitat(habitat);
 		this.setGenero(genero);
 	}
+	public Animal(){
+	}
 
 	public String movimiento(){
 		return "desplazarse";
