@@ -1,8 +1,8 @@
 package zooAnimales;
 
 public class Mamifero extends Animal {
-	static int caballos;
-	static int leones;
+	public static int caballos;
+	public static int leones;
 	boolean pelaje;
 	private int patas;
 	

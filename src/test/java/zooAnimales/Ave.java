@@ -1,8 +1,8 @@
 package zooAnimales;
 
 public class Ave extends Animal{
-	static int halcones;
-	static int aguilas;
+	public static int halcones;
+	public static int aguilas;
 	private String colorPlumas;
 	
 	public Ave(String nombre,int edad,String habitat,String  genero, String colorPlumas){

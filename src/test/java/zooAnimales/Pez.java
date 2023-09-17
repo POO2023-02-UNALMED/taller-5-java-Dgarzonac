@@ -1,8 +1,8 @@
 package zooAnimales;
 
 public class Pez extends Animal{
-	static int salmones;
-	static int bacalaos;
+	public static int salmones;
+	public static int bacalaos;
 	String colorEscamas;
 	private int cantidadAletas;
 	
