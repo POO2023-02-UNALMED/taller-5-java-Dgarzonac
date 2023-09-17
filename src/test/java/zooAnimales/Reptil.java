@@ -8,7 +8,7 @@ public class Reptil extends Animal {
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
-	private List<Reptil> reptiles = new ArrayList<>();
+	private static List<Reptil> reptiles = new ArrayList<>();
 	
 	public Reptil(String nombre,int edad,String habitat,String  genero, String colorEscamas, int largoCola){
 		super(nombre, edad, habitat, genero);
@@ -29,7 +29,7 @@ public class Reptil extends Animal {
 		return "reptar";
 	}
 	public static int cantidadReptiles(){
-		return (iguanas+serpientes) ;
+		return (reptiles.size()) ;
 	}
 	public int getLargoCola(){
 		return largoCola;

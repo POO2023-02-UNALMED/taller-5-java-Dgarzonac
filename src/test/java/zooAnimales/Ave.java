@@ -7,7 +7,7 @@ public class Ave extends Animal{
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
-	private List<Ave> aves = new ArrayList<>();
+	private static List<Ave> aves = new ArrayList<>();
 	
 	public Ave(String nombre,int edad,String habitat,String  genero, String colorPlumas){
 		super(nombre, edad, habitat, genero);
@@ -27,7 +27,7 @@ public class Ave extends Animal{
 		return "volar";
 	}
 	public static int cantidadAves(){
-		return (halcones+aguilas) ;
+		return (aves.size()) ;
 	}
 	public String getColorPlumas(){
 		return colorPlumas;

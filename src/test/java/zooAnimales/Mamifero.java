@@ -8,7 +8,7 @@ public class Mamifero extends Animal {
 	public static int leones;
 	private boolean pelaje;
 	private int patas;
-	private List<Mamifero> mamiferos = new ArrayList<>();
+	private static List<Mamifero> mamiferos = new ArrayList<>();
 	
 	public Mamifero(String nombre,int edad,String habitat,String  genero, boolean pelaje, int patas){
 		super(nombre, edad, habitat, genero);
@@ -28,7 +28,7 @@ public class Mamifero extends Animal {
 		return "desplazarse";
 	}
 	public static int cantidadMamiferos(){
-		return (caballos+leones) ;
+		return (mamiferos.size()) ;
 	}
 	public int getPatas(){
 		return patas;
