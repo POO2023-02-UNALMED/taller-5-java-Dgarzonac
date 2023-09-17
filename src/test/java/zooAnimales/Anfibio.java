@@ -52,7 +52,7 @@ public class Anfibio extends Animal{
 	}
 
 	public void setAnfibios(List<Anfibio> anfibios) {
-		this.anfibios = anfibios;
+		Anfibio.anfibios = anfibios;
 	}
 	public String getColorPiel() {
 		return colorPiel;
