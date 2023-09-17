@@ -1,7 +1,6 @@
 package zooAnimales;
 
 import gestion.*;
-import java.util.ArrayList;
 public class Animal {
 	private int totalAnimales;
 	private String nombre;
