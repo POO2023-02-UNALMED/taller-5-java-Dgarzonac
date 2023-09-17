@@ -22,7 +22,7 @@ public class Zoologico {
 		return 0;
 	}
 
-	public String getNombre() {
+	public String getNombre(){
 		return nombre;
 	}
 
@@ -38,3 +38,4 @@ public class Zoologico {
 		this.ubicacion = ubicacion;
 	}
 }
+
