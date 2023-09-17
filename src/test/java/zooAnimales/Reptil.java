@@ -16,7 +16,9 @@ public class Reptil extends Animal {
 		this.colorEscamas=colorEscamas;
 		reptiles.add(this);
 	}
-	public Reptil(){}
+	public Reptil(){
+		reptiles.add(this);
+	}
 	public static Reptil crearIguana(String nombre,int edad,String genero){
 		iguanas++;
 		return new Reptil(nombre, edad, "humedal", genero, "verde", 3);

@@ -17,7 +17,9 @@ public class Pez extends Animal{
 		peces.add(this);
 	}
 	
-	public Pez(){}
+	public Pez(){
+		peces.add(this);
+	}
 	public static Pez crearSalmon(String nombre,int edad,String genero){
 		salmones++;
 		return new Pez(nombre, edad, "oceano", genero, "rojo", 6); 
