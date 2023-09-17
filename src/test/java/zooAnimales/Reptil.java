@@ -13,6 +13,7 @@ public class Reptil extends Animal {
 	public Reptil(String nombre,int edad,String habitat,String  genero, String colorEscamas, int largoCola){
 		super(nombre, edad, habitat, genero);
 		this.largoCola=largoCola;
+		this.colorEscamas=colorEscamas;
 		reptiles.add(this);
 	}
 	public Reptil(){}
