@@ -17,6 +17,7 @@ public class Reptil extends Animal {
 		reptiles.add(this);
 	}
 	public Reptil(){
+		super();
 		reptiles.add(this);
 	}
 	public static Reptil crearIguana(String nombre,int edad,String genero){

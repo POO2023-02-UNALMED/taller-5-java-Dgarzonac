@@ -18,6 +18,7 @@ public class Pez extends Animal{
 	}
 	
 	public Pez(){
+		super();
 		peces.add(this);
 	}
 	public static Pez crearSalmon(String nombre,int edad,String genero){

@@ -15,6 +15,7 @@ public class Ave extends Animal{
 		aves.add(this);
 	}
 	public Ave(){
+		super();
 		aves.add(this);
 	}
 	public static Ave crearHalcon(String nombre,int edad, String genero){
