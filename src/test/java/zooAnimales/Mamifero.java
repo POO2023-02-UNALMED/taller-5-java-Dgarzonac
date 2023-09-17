@@ -1,14 +1,19 @@
 package zooAnimales;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Mamifero extends Animal {
 	public static int caballos;
 	public static int leones;
 	boolean pelaje;
 	private int patas;
+	private List<Mamifero> mamiferos = new ArrayList<>();
 	
 	public Mamifero(String nombre,int edad,String habitat,String  genero, boolean pelaje, int patas){
 		super(nombre, edad, habitat, genero);
 		this.patas=patas;
+		mamiferos.add(this);
 	}
 	
 	public static Mamifero crearCaballo(String nombre,int edad,String genero){
