@@ -6,7 +6,7 @@ import java.util.List;
 public class Mamifero extends Animal {
 	public static int caballos;
 	public static int leones;
-	boolean pelaje;
+	private boolean pelaje;
 	private int patas;
 	private List<Mamifero> mamiferos = new ArrayList<>();
 	
@@ -35,6 +35,12 @@ public class Mamifero extends Animal {
 	}
 	public void setPatas(int patas){
 		this.patas = patas;
+	}
+	public boolean isPelaje() {
+		return pelaje;
+	}
+	public void setPelaje(boolean pelaje) {
+		this.pelaje = pelaje;
 	}
 
 }

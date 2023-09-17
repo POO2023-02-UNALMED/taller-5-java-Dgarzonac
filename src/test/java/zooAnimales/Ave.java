@@ -29,7 +29,7 @@ public class Ave extends Animal{
 	public static int cantidadAves(){
 		return (halcones+aguilas) ;
 	}
-	public String getcolorPlumas(){
+	public String getColorPlumas(){
 		return colorPlumas;
 	}
 }

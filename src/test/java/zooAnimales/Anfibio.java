@@ -7,7 +7,7 @@ import java.util.List;
 public class Anfibio extends Animal{
 	public static int ranas;
 	public static int salamandras;
-	String colorPiel;
+	private String colorPiel;
 	private boolean venenoso;
 	private List<Anfibio> anfibios = new ArrayList<>();
 	
@@ -49,6 +49,12 @@ public class Anfibio extends Animal{
 
 	public void setAnfibios(List<Anfibio> anfibios) {
 		this.anfibios = anfibios;
+	}
+	public String getColorPiel() {
+		return colorPiel;
+	}
+	public void setColorPiel(String colorPiel) {
+		this.colorPiel = colorPiel;
 	}
 	
 }

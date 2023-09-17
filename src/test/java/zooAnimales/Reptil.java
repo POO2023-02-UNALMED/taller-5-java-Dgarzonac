@@ -6,7 +6,7 @@ import java.util.List;
 public class Reptil extends Animal {
 	public static int iguanas;
 	public static int serpientes;
-	String colorEscamas;
+	private String colorEscamas;
 	private int largoCola;
 	private List<Reptil> reptiles = new ArrayList<>();
 	
@@ -30,10 +30,16 @@ public class Reptil extends Animal {
 	public static int cantidadReptiles(){
 		return (iguanas+serpientes) ;
 	}
-	public int getLargCola(){
+	public int getLargoCola(){
 		return largoCola;
 	}
 	public void setLargoCola(int largoCola){
 		this.largoCola=largoCola;
+	}
+	public String getColorEscamas() {
+		return colorEscamas;
+	}
+	public void setColorEscamas(String colorEscamas) {
+		this.colorEscamas = colorEscamas;
 	}
 }
