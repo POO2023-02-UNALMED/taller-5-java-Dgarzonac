@@ -6,7 +6,7 @@ import java.util.List;
 public class Pez extends Animal{
 	public static int salmones;
 	public static int bacalaos;
-	String colorEscamas;
+	private String colorEscamas;
 	private int cantidadAletas;
 	private List<Pez> peces = new ArrayList<>();
 	
@@ -40,5 +40,13 @@ public class Pez extends Animal{
 
 	public void setCantidadAletas(int cantidadAletas) {
 		this.cantidadAletas = cantidadAletas;
+	}
+
+	public String getColorEscamas() {
+		return colorEscamas;
+	}
+
+	public void setColorEscamas(String colorEscamas) {
+		this.colorEscamas = colorEscamas;
 	}
 }
