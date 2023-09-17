@@ -29,7 +29,7 @@ public class Animal {
 	}
 	
 	public String toString (){
-		return " Mi nombre es " + getNombre() +  ", tengo una edad de " + getEdad() + ", habito en " + getHabitat() + " y mi genero es" + getGenero() + ", la zona en la que me ubico es " +  getZona() + ", en el " getNombre();
+		return " Mi nombre es " + getNombre() +  ", tengo una edad de " + getEdad() + ", habito en " + getHabitat() + " y mi genero es" + getGenero() + ", la zona en la que me ubico es " +  getZona() + ", en el " + getZona().getZoo();
 	}
 
 	public int getTotalAnimales() {
